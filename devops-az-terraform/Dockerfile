@@ -1,6 +1,6 @@
 # Proof of Concept: DevOps Environment with Azure-CLI and Terraform
 #
-# docker run --rm -it -v ~/docker_mapped/work:/work devops-az-terraform
+# docker run --rm -it -v ~/docker_mapped/work:/work rgtechnology/devops-az-terraform
 #
 
 FROM ubuntu:20.04
