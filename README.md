@@ -1,2 +1,2 @@
 # dockerfiles
-Collection of Dockerfiles (Examples and Proof of Concept)
+Collection of Dockerfiles (Examples / Proof of Concept)
