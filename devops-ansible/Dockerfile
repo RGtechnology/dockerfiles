@@ -14,11 +14,10 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     apt-get clean
 
 # install Ansible
-RUN pip3 install ansible==4.1 && \
-    pip3 install --upgrade pywinrm mitogen ansible-lint jmespath && \
+RUN pip3 install ansible && \
+    pip3 install --upgrade pywinrm mitogen yamllint ansible-lint jmespath && \
     rm -rf /root/.cache/pip
 
-VOLUME ["/work"] 
 WORKDIR /work
 
 CMD ["bash"]
